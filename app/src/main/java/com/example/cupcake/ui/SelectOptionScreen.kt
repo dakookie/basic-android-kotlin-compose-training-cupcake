@@ -63,6 +63,7 @@ fun SelectOptionScreen(
         verticalArrangement = Arrangement.SpaceBetween
     ) {
         Column(modifier = Modifier.padding(dimensionResource(R.dimen.padding_medium))) {
+            Text("Autor: Damaris Suquillo")
             options.forEach { item ->
                 Row(
                     modifier = Modifier.selectable(
